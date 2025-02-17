@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49a84784-dc02-4d7d-8b76-a0b9467cab63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/StandardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/AddUserHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/MultiTenantFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/RateLimitingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/routes/Routes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/LogoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/RateLimiterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/tenant/TenantContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/util/AESEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/util/GatewayHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/util/LoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/util/RSAEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/venduit/assetmanagement/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/grafana/datasource.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/grafana/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mysql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/tempo/tempo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/InvestmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/config/TenantContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/controller/InvestmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/model/Investment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/model/POJO/StandardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/repository/InvestmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/java/com/venduit/assetmanagement/investment_service/services/InvestmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/test/java/com/venduit/assetmanagement/investment_service/InvestmentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/test/java/com/venduit/assetmanagement/investment_service/TestInvestmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investment-service/src/test/java/com/venduit/assetmanagement/investment_service/TestcontainersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/java/com/venduit/assetmanagement/saving_service/SavingServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/java/com/venduit/assetmanagement/saving_service/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/java/com/venduit/assetmanagement/saving_service/controller/SavingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/java/com/venduit/assetmanagement/saving_service/model/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/java/com/venduit/assetmanagement/saving_service/services/SavingServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/test/java/com/venduit/assetmanagement/saving_service/SavingServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/test/java/com/venduit/assetmanagement/saving_service/TestSavingServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving-service/src/test/java/com/venduit/assetmanagement/saving_service/TestcontainersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/TransactionServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/config/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/config/UserContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/controller/DisbursementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/event/TransactionEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/Auditable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/Disbursement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO/DisbursementRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO/StandardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO/TransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO/UserContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/repository/DisbursementRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/services/DisbursementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/services/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/util/DatabaseHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/util/LoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/util/TransactionHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/com/venduit/assetmanagement/transaction_service/TestTransactionServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/com/venduit/assetmanagement/transaction_service/TestcontainersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/com/venduit/assetmanagement/transaction_service/TransactionServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/client/GatewayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/ObservationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/RequestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/config/UserContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Auditable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/POJO/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/POJO/StandardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/POJO/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/POJO/UserContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/repository/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/util/DatabaseHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/util/LoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/util/UserServiceHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/venduit/assetmanagement/user_service/UserServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/6.4.2/spring-security-core-6.4.2.jar!/org/springframework/security/authentication/AuthenticationManager.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2sciVcSCrGwmG1e2ns0dh414S8W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Debug",
+    "Application.InvestmentServiceApplication.executor": "Debug",
+    "Application.SavingServiceApplication.executor": "Debug",
+    "Application.TransactionServiceApplication.executor": "Debug",
+    "Application.UserServiceApplication.executor": "Debug",
+    "JUnit.ApiGatewayApplicationTests.executor": "Debug",
+    "JUnit.UserServiceApplicationTests.executor": "Debug",
+    "JUnit.UserServiceApplicationTests.testRegister_EmailAlreadyExists.executor": "Debug",
+    "JUnit.UserServiceApplicationTests.testRegister_UsernameAlreadyExists.executor": "Run",
+    "Maven.assetmanagement [flyway:repair].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/venduit/assetmanagement/transaction-service/src/main/java/com/venduit/assetmanagement/transaction_service/model/POJO",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\venduit\assetmanagement\transaction-service\src\main\java\com\venduit\assetmanagement\transaction_service\model\POJO" />
+      <recent name="C:\venduit\assetmanagement\transaction-service\src\main\java\com\venduit\assetmanagement\transaction_service" />
+      <recent name="C:\venduit\assetmanagement\transaction-service\src\main\resources" />
+      <recent name="C:\venduit\assetmanagement\saving-service\src\main\resources" />
+      <recent name="C:\venduit\assetmanagement\investment-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\venduit\assetmanagement\docker" />
+      <recent name="C:\venduit\assetmanagement" />
+      <recent name="C:\venduit\assetmanagement\api-gateway" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.venduit.assetmanagement.transaction_service.config" />
+      <recent name="com.venduit.assetmanagement.user_service.config" />
+      <recent name="com.venduit.assetmanagement.transaction_service.model" />
+      <recent name="com.venduit.assetmanagement.api_gateway.util" />
+      <recent name="com.venduit.assetmanagement.investment_service.config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn flyway:repair" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.venduit.assetmanagement.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.venduit.assetmanagement.user_service" />
+      <option name="MAIN_CLASS_NAME" value="com.venduit.assetmanagement.user_service.UserServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationTests.testRegister_UsernameAlreadyExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.venduit.assetmanagement.user_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.venduit.assetmanagement.user_service" />
+      <option name="MAIN_CLASS_NAME" value="com.venduit.assetmanagement.user_service.UserServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testRegister_UsernameAlreadyExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceApplicationTests" />
+        <item itemvalue="JUnit.UserServiceApplicationTests.testRegister_UsernameAlreadyExists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49a84784-dc02-4d7d-8b76-a0b9467cab63" name="Changes" comment="" />
+      <created>1738761292532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738761292532</updated>
+    </task>
+    <servers />
+  </component>
+</project>
