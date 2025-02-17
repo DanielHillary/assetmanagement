@@ -5,27 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a84784-dc02-4d7d-8b76-a0b9467cab63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/POJO/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/routes/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/routes/Routes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/venduit/assetmanagement/api_gateway/service/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/venduit/assetmanagement/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/venduit/assetmanagement/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/70a3042f-7c7b-423a-bee2-51a97b1ec70c/bloom-0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/70a3042f-7c7b-423a-bee2-51a97b1ec70c/data.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/70a3042f-7c7b-423a-bee2-51a97b1ec70c/meta.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/ef11606b-af4c-4375-b7a0-1a0e38a12800/bloom-0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/ef11606b-af4c-4375-b7a0-1a0e38a12800/data.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/ef11606b-af4c-4375-b7a0-1a0e38a12800/meta.compacted.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/9411cabc-64bb-4b52-9d24-5c17911e85e9/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/9411cabc-64bb-4b52-9d24-5c17911e85e9/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/9411cabc-64bb-4b52-9d24-5c17911e85e9/meta.compacted.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/e049a71b-9c95-480d-bd89-47745f7a465b/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/e049a71b-9c95-480d-bd89-47745f7a465b/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/e049a71b-9c95-480d-bd89-47745f7a465b/meta.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/index.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/docker/tempo/tempo-data/blocks/single-tenant/index.json.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/venduit/assetmanagement/user_service/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

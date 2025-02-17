@@ -37,11 +37,11 @@ public class AuthenticationService {
                     )
             );
 
-            System.out.println("User: " + request.getEmail());
-
             var user = userClient.getUserDetailsByEmail(request.getEmail());
             var jwtToken = jwtService.generateToken(user);
             var refreshToken = jwtService.generateRefreshToken(user);
+
+            System.out.println("User: " + user.getEmail());
 
             revokeAllUserTokens(user);
             saveUserToken(user, jwtToken);

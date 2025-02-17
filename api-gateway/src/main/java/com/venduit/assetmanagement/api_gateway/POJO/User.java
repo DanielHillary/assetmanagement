@@ -40,6 +40,9 @@ public class User implements UserDetails {
         roles = userRole;
     }
 
+    public <E> User(String mail, String encodedPassword, List<E> roleUser) {
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         if (roles == null) {
