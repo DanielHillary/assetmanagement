@@ -123,9 +123,9 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>10.20.1</version>
                 <configuration>
-                    <url>jdbc:mysql://localhost:3309/v_transaction_db</url>
+                    <url>jdbc:mysql://localhost:3307/v_transaction_db</url>
                     <user>root</user>
-                    <password>Everbest_1</password>
+                    <password>mysql</password>
                 </configuration>
             </plugin>
         </plugins>

@@ -21,3 +21,13 @@ CREATE TABLE users (
     created_by VARCHAR(255) NOT NULL,
     last_modified_by VARCHAR(255)
 );
+
+CREATE TABLE token (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(255) UNIQUE NOT NULL,
+    token_type VARCHAR(255) NOT NULL,
+    revoked BOOLEAN NOT NULL,
+    expired BOOLEAN NOT NULL,
+    user_id INT,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);

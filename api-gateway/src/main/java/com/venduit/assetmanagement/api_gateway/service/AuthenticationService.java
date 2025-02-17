@@ -36,10 +36,13 @@ public class AuthenticationService {
                             request.getPassword()
                     )
             );
+
+            System.out.println("User: " + request.getEmail());
+
             var user = userClient.getUserDetailsByEmail(request.getEmail());
             var jwtToken = jwtService.generateToken(user);
             var refreshToken = jwtService.generateRefreshToken(user);
-            System.out.println("User: " + user);
+
             revokeAllUserTokens(user);
             saveUserToken(user, jwtToken);
             loggingService.logAction("User authenticated", request.getEmail(), "User successfully authenticated");
@@ -49,6 +52,7 @@ public class AuthenticationService {
                     .build();
         } catch (RuntimeException e) {
             loggingService.logError("Auth error", request.getEmail(), "Could not authenticate user. Please try again.");
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
     }

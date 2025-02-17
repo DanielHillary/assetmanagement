@@ -1,13 +1,12 @@
 package com.venduit.assetmanagement.api_gateway.POJO;
 
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 @Data
@@ -34,8 +33,18 @@ public class User implements UserDetails {
     private Role roles;
     private List<Token> tokens;
 
+    public User(int l, String mail, String password123, Role userRole) {
+        id = l;
+        email = mail;
+        password = password123;
+        roles = userRole;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
+        if (roles == null) {
+            return Collections.emptyList(); // Prevent NullPointerException
+        }
         return roles.getAuthorities();
     }
 

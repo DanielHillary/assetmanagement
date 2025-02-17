@@ -13,10 +13,28 @@ import static org.springframework.cloud.gateway.server.mvc.filter.FilterFunction
 @Configuration
 public class Routes {
 
+
     @Bean
-    public RouterFunction<ServerResponse> userManagementServiceRoute(){
-        return GatewayRouterFunctions.route("user_service")
-                .route(RequestPredicates.path("/api/v1/user"), HandlerFunctions.http("http://localhost:8080"))
+    public RouterFunction<ServerResponse> userManagementServiceRoute() {
+        return GatewayRouterFunctions.route()
+                .route(
+                        req -> {
+                            String tenantId = req.headers().firstHeader("X-Tenant-ID");
+                            return "tenant1".equals(tenantId);
+                        },
+                        HandlerFunctions.http("http://localhost:8084") // Route to tenant1 service
+                )
+                .route(
+                        req -> {
+                            String tenantId = req.headers().firstHeader("X-Tenant-ID");
+                            return "tenant2".equals(tenantId);
+                        },
+                        HandlerFunctions.http("http://localhost:8085") // Route to tenant2 service
+                )
+                .route(
+                        RequestPredicates.path("/api/v1/user"),
+                        HandlerFunctions.http("http://localhost:8080") // Default service if no tenant match
+                )
                 .build();
     }
 

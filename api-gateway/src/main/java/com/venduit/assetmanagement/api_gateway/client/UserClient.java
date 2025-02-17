@@ -15,7 +15,7 @@ public interface UserClient {
     @GetExchange("/getuserbyusername")
     User getUserDetailsByUserName(@RequestParam String username);
 
-    @GetExchange("/getuserbyemail")
+    @GetExchange(value = "/getuserbyemail")
     User getUserDetailsByEmail(@RequestParam String email);
 
     @PostExchange(value = "/registeruser")

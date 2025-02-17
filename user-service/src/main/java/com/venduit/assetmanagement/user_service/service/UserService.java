@@ -353,8 +353,11 @@ public class UserService {
 
     public User getUserByEmail(String email) {
         try {
-            return userRepo.findByEmail(email).orElseThrow(() -> new ResourceNotFoundException(("Could not find User")));
+            User user = userRepo.findByEmail(email).orElseThrow(() -> new ResourceNotFoundException(("Could not find User")));
+            System.out.println("The email: " + user.getEmail());
+            return user;
         } catch (Exception e) {
+            logger.error(e.getMessage());
             throw new RuntimeException(e);
         }
     }
